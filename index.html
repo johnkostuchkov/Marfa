@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Marfa</title>
 </head>
 <body>
@@ -56,9 +57,75 @@
         <div class="container">
             <h2>Это возможно с помощью английских техник стрижек</h2>
             <div class="block">
-
+                <img src="img/divt843__blockimg.png" alt="cut">
+                <div class="text">
+                    <p>В 1960-х годах Видал Сассун создал систему стрижек, в основу которой легли техники стрижек (одна длина, слои, градуировка) и формы стрижек (круг, квадрат, треугольник), а также понятие «идеальная длина» для каждой структуры волос и работа с формой головы и овалом лица.</p>
+                    <p>За его стрижками выстраивались в очередь, потому что его цель была — создать такую стрижку, которая не нуждалась в укладке.</p>
+                    <p>Каждая техника выполняет свою задачу:</p>
+                    <ul>
+                        <li>— одноуровневая техника набирает плотность,</li>
+                        <li>— градуировка создает объем</li>
+                        <li>— слои создают текстуру и убирают массу.</li>
+                    </ul>
+                </div>
             </div>
+            <div class="block">
+                <div class="text">
+                    <p>Комбинируя между собой эти техники и три формы, можно выполнить абсолютно любую стрижку.</p>
+                    <p>Изюминка английских техник — это сохранение формы стрижки от полутора до шести месяцев.</p>
+                    <p>Но стрижка — это не только процесс работы с волосами, но и психология общения с клиентом, искусство консультации.</p>
+                    <p>Такие стрижки стоят дорого, и люди готовы за них платить!</p>
+                </div>
+                <img src="img/divt843__blockim1g.png" alt="">
+            </div>
+            <a href="#" class="button">Записаться на курс</a>
+            <div class="line-bottom"></div>
         </div>
     </div>
+    <div class="container">
+        <div class="for">
+            <h2>Для кого подходит курс?</h2>
+            <div class="who">
+                <h3>Курс подходит абсолютно всем:</h3>
+                <p>— Всего за 2 месяца вы научитесь стричь.</p>
+                <p>— Изучите новые техники выполнения стрижек.</p>
+                <p>—  Изучите все правила построения формы стрижки.</p>
+                <p>—  Сможете стричь уверенно и перестать бояться недовольных клиентов.</p>
+                <p>— Клиенты будут возвращаться за вашими стрижками!</p>
+            </div>
+        </div>
+        <div class="cut">
+            <h2>Стрижки курса</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/9kNHPrGzt2BnkQ33B61dbXiwq053LGImhUZtOp8A-content_front.jpg" alt="cut"></div>
+                    <div class="swiper-slide"><img src="img/57f4881f97c6ae40feccdeb4dc86f418.jpg" alt="cut"></div>
+                    <div class="swiper-slide"><img src="img/pata.jpg" alt="cut"></div>
+                    <div class="swiper-slide"><img src="img/rqCxTqOLCXw.jpg" alt="cut"></div>
+                    <div class="swiper-slide"><img src="img/RSoa3i5XJlkbJBDtsVqr56f0GV6JrJtQyqZ5cKgX-content_front.jpg" alt="cut"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a href="#" class="button">Записаться на курс</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>
