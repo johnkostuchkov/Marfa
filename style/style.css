@@ -169,7 +169,7 @@ li {
 #swiper-pagination .swiper-pagination-bullet-active {
     background: #f18918;
 }
-.picandinfo div h2 {
+.info-name {
     text-align: center;
     font-weight: 500;
     font-size: 36px;
@@ -416,11 +416,11 @@ li {
 }
 @media (max-width: 1024px) {
     .container {
-        max-width: 994px;
+        max-width: 1024px;
     }
     .header-top {
-        max-width: 964px;
-        padding: 10px 15px 0px 15px;
+        max-width: 979px;
+        padding: 10px 30px 0px 15px;
         .logo img {
             width: 70px;
         }
@@ -523,14 +523,14 @@ li {
     .container {
         max-width: 768px;
     }
-    h2 {
-        font-size: 32px;
-    }
     .header-top {
         max-width: 738px;
         ul {
             width: 560px;
         }
+    }
+    .info-name, .for h2, .cut h2, .price h2, .comment h2, .faq h2, .contact h2 {
+        font-size: 32px;
     }
     .header-right {
         p {
@@ -550,7 +550,7 @@ li {
     .block img {
         width: 0px;
     }
-    .block {
+    .littleinfo .block {
         margin-bottom: 30px;
     }
     .text {
@@ -592,5 +592,182 @@ li {
         p {
             font-size: 16px;
         }
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+    }
+    .header-top {
+        max-width: 430px;
+        padding: 10px 30px 0px 15px;
+        .logo img {
+            width: 50px;
+        }
+        ul {
+            width: 375px;
+            padding-left: 20px;
+        }
+    }
+    .navbar ul li a {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .info-name, .for h2, .cut h2, .price h2, .comment h2, .faq h2, .contact h2 {
+        font-size: 24px;
+    }
+    .header-right {
+        p {
+            font-size: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+            padding-top: 20px;
+            padding-bottom: 9px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        img {
+            width: 150px;
+            left: -10px;
+            padding-bottom: 9px;
+        }
+    }
+    .littleinfo .block {
+        margin-bottom: 0px;
+    }
+    .line-top {
+        width: 480px;
+        padding-top: 20px;
+    }
+    .line-bottom {
+        width: 480px;
+        padding-bottom: 20px;
+    }
+    .header-bottom {
+        padding-top: 54px;
+    }
+    .some p {
+        width: 450px;
+        font-size: 16px;
+    }
+    .button {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .text p, .text ul li {
+        font-size: 16px;
+    }
+    .text {
+        max-width: 450px;
+    }
+    .who {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .cut h2 {
+        margin-bottom: 30px;
+    }
+    .for h2 {
+        padding-top: 40px;
+    }
+    .who1 {
+        width: 390px;
+        h3 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .who2 {
+        width: 390px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .swiper {
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    .price h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .prices {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 564px;
+        margin-bottom: 30px;
+    }
+    .comment h2 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .faq h2 {
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .acor-container label {
+        font-size: 20px;
+    }
+    .acor-body p {
+        font-size: 16px;
+    }
+    .contact { 
+        h3 {
+            font-size: 20px;
+        }
+        p {
+        font-size: 16px;
+        }
+    }
+    .priceblock {
+        margin-bottom: 0;
+        width: 200px;
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .contact p {
+        font-size: 20px;
+    }
+    #back-comm {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .contact h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contact {
+        margin-bottom: 40px;
+    }
+    .footer p {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .up a h3 {
+        font-size: 20px;
+        padding: 7px 10px;  
+    }
+    .up {
+        bottom: 25px;
+        right: 25px;
     }
 }
