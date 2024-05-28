@@ -416,10 +416,10 @@ li {
 }
 @media (max-width: 1024px) {
     .container {
-        max-width: 1024px;
+        max-width: 994px;
     }
     .header-top {
-        max-width: 994px;
+        width: 994px;
         padding: 10px 15px 0px 15px;
         .logo img {
             width: 70px;
@@ -517,5 +517,103 @@ li {
     .cut .mySwiper {
         margin-left: 15px;
         margin-right: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .header-top {
+        max-width: 738px;
+        ul {
+            width: 560px;
+        }
+    }
+    .header-left, .header-left img {
+        width: 0%;
+    }
+    .header-right {
+        align-items: start;
+        p {
+            text-align: left;
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .header-bottom {
+        justify-content: flex-start;
+        margin-left: 15px;
+        padding-top: 74px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 10px 36px;
+    }
+    .block img {
+        width: 0px;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+    .text p, .text ul li {
+        font-size: 20px;
+    }
+    .text {
+        max-width: 738px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .who1 {
+        width: 60%;
+        padding: 30px;
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .who2 {
+        padding: 30px;
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .who {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .swiper {
+        height: 300px;
+    }
+    .priceblock {
+        width: 22%;
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 20px;
+            padding: 15px 0px;
+        }
+    }
+    .prices {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #back-comm {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
     }
 }
