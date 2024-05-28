@@ -266,10 +266,10 @@ li {
     font-weight: 400;
     font-size: 20px;
     color: #000;
-    height: 400px;
+    height: auto;
 }
 #comm {
-    height: 400px;
+    height: auto;
 }
 .comm-text {
     padding: 40px;
@@ -419,7 +419,7 @@ li {
         max-width: 994px;
     }
     .header-top {
-        width: 994px;
+        max-width: 964px;
         padding: 10px 15px 0px 15px;
         .logo img {
             width: 70px;
@@ -532,13 +532,8 @@ li {
             width: 560px;
         }
     }
-    .header-left, .header-left img {
-        width: 0%;
-    }
     .header-right {
-        align-items: start;
         p {
-            text-align: left;
             font-size: 20px;
         }
         h2 {
@@ -547,11 +542,6 @@ li {
         h3 {
             font-size: 24px;
         }
-    }
-    .header-bottom {
-        justify-content: flex-start;
-        margin-left: 15px;
-        padding-top: 74px;
     }
     .button {
         font-size: 16px;
@@ -563,16 +553,12 @@ li {
     .block {
         margin-bottom: 30px;
     }
-    .text p, .text ul li {
-        font-size: 20px;
-    }
     .text {
         max-width: 738px;
         margin-left: 15px;
         margin-right: 15px;
     }
     .who1 {
-        width: 60%;
         padding: 30px;
         h3 {
             font-size: 20px;
@@ -587,26 +573,17 @@ li {
             font-size: 20px;
         }
     }
-    .who {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
     .swiper {
         height: 300px;
     }
     .priceblock {
-        width: 22%;
+        width: 20%;
         h3 {
-            font-size: 24px;
+            font-size: 20px;
         }
         p {
-            font-size: 20px;
-            padding: 15px 0px;
+            font-size: 16px;
         }
-    }
-    .prices {
-        margin-left: 15px;
-        margin-right: 15px;
     }
     #back-comm {
         h3 {
