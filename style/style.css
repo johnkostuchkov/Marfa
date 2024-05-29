@@ -599,13 +599,13 @@ li {
         max-width: 480px;
     }
     .header-top {
-        max-width: 430px;
-        padding: 10px 30px 0px 15px;
+        max-width: 450px;
+        padding: 10px 15px 0px 15px;
         .logo img {
             width: 50px;
         }
         ul {
-            width: 375px;
+            width: 380px;
             padding-left: 20px;
         }
     }
@@ -621,6 +621,7 @@ li {
             font-size: 16px;
             padding-top: 10px;
             padding-bottom: 10px;
+            width: 450px;
         }
         h2 {
             font-size: 24px;
@@ -660,6 +661,10 @@ li {
     }
     .text p, .text ul li {
         font-size: 16px;
+    }
+    .info-name {
+        padding-top: 40px;
+        padding-bottom: 30px;
     }
     .text {
         max-width: 450px;
@@ -726,7 +731,7 @@ li {
             font-size: 20px;
         }
         p {
-        font-size: 16px;
+            font-size: 16px;
         }
     }
     .priceblock {
@@ -738,9 +743,6 @@ li {
         p {
             font-size: 16px;
         }
-    }
-    .contact p {
-        font-size: 20px;
     }
     #back-comm {
         h3 {
@@ -761,6 +763,122 @@ li {
         font-size: 12px;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .up a h3 {
+        font-size: 20px;
+        padding: 7px 10px;  
+    }
+    .up {
+        bottom: 25px;
+        right: 25px;
+    }
+}
+@media (max-width: 360px) {
+    .container {
+        max-width: 360px;
+    }
+    .header-top {
+        max-width: 330px;
+        .logo img {
+            width: 40px;
+        }
+        ul {
+            width: 270px;
+            padding-right: 10px;
+        }
+    }
+    .navbar ul li a {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .info-name, .for h2, .cut h2, .price h2, .comment h2, .faq h2, .contact h2 {
+        font-size: 20px;
+    }
+    .header-right {
+        p {
+            font-size: 14px;
+            width: 330px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        img {
+            width: 120px;
+        }
+    }
+    .line-top {
+        width: 360px;
+    }
+    .line-bottom {
+        width: 360px;
+    }
+    .some p {
+        width: 330px;
+        font-size: 14px;
+    }
+    .button {
+        font-size: 14px;
+        margin-top: 12px;
+        padding: 10px 24px;
+    }
+    .text p, .text ul li {
+        font-size: 14px;
+    }
+    .text {
+        max-width: 330px;
+    }
+    .who {
+        height: 402px;
+    }
+    .who1 {
+        width: 270px;
+    }
+    .who2 {
+        width: 270px;
+    }
+    .swiper {
+        height: 165px;
+    }
+    .prices {
+        height: 444px;
+    }
+    .acor-container label {
+        font-size: 16px;
+    }
+    .acor-body p {
+        font-size: 14px;
+    }
+    .contact { 
+        h3 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .priceblock {
+        padding: 30px;
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+            padding: 5px 0px;
+        }
+    }
+    #back-comm {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .footer p {
+        font-size: 10px;
     }
     .up a h3 {
         font-size: 20px;
