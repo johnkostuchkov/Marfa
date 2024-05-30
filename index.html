@@ -266,8 +266,21 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+        if (window.innerWidth <= 360) {
+            swipe1 = 2;
+            swipe2 = 1;
+        } else if (window.innerWidth <= 480) {
+            swipe1 = 2;
+            swipe2 = 1;
+        } else if (window.innerWidth <= 768) {
+            swipe1 = 3;
+            swipe2 = 2;
+        } else {
+            swipe1 = 3;
+            swipe2 = 3
+        }
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
+            slidesPerView: swipe1,
             spaceBetween: 15,
             loop: true,
             pagination: {
@@ -280,7 +293,8 @@
             },
         });
         var swiper = new Swiper(".mySwiper1", {
-            slidesPerView: 1,
+            slidesPerView: swipe2,
+            spaceBetween: 15,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
