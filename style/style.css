@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
     align-items: center;
     background-color: #000;
@@ -378,7 +379,7 @@ li {
     margin-bottom: 20px;
 }
 .contact {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .line {
     border-bottom: #f18918 solid 1px;
@@ -398,12 +399,17 @@ li {
     color: #000;
 }
 .up {
-    background: linear-gradient(-45deg, #f18918, #fbe338);
+    background: #f18918;
     border-radius: 40px;
     position: fixed;
     z-index: 1000;
     bottom: 50px;
     right: 50px;
+}
+.cont-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #popup-overlay {
     position: fixed;
@@ -719,7 +725,7 @@ li {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 564px;
+        height: 726px;
         margin-bottom: 30px;
     }
     .comment h2 {
@@ -853,7 +859,7 @@ li {
         height: 250px;
     }
     .prices {
-        height: 444px;
+        height: 576px;
     }
     .acor-container label {
         font-size: 16px;
