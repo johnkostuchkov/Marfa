@@ -283,6 +283,7 @@ li {
     img {
         padding: 4px 0px;
         width: 45px;
+        border-radius: 23px;
     }
 }
 .comment h2 {
